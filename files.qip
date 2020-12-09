@@ -1,0 +1,11 @@
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/fb.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/hp300.vhd
+set_global_assignment -name SDC_FILE hp300.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE hp300.sv
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/ptm6840.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/bootrom_d.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/videorom.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/videoram.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/sdram.vhd
+set_global_assignment -name SYSTEMVERILOG_FILE rtl/hif.vhd
+

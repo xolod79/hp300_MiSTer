@@ -1,0 +1,22 @@
+v 4
+file . "ptm6840.vhd" "d4032f8ae09813122695b46b13e6a1b77920548c" "20201008132310.379":
+  entity ptm6840 at 1( 0) + 0 on 29;
+  architecture rtl of ptm6840 at 30( 607) + 0 on 30;
+file . "bootrom_d.v" "131b4eea553552bb70857b316c3dec69b7be7376" "20201008105526.425":
+  entity bootrom at 1( 0) + 0 on 21;
+  architecture rtl of bootrom at 11( 203) + 0 on 22;
+file . "hif.vhd" "d76217cd1cedc784d100a8b33fb21090405b5bf3" "20201008103315.345":
+  entity hif at 1( 0) + 0 on 19;
+  architecture rtl of hif at 20( 441) + 0 on 20;
+file . "sdram.vhd" "885586c7e52b58ff1a548c7555c50ef8f5d6a7ed" "20201007212030.787":
+  entity sdram at 1( 0) + 0 on 13;
+  architecture rtl of sdram at 30( 741) + 0 on 14;
+file . "fb.vhd" "91cfeb099b073393346df18b6e739f131217acc9" "20201008083420.473":
+  entity fb at 1( 0) + 0 on 15;
+  architecture rtl of fb at 27( 713) + 0 on 16;
+file . "basic50.v" "c49c53b9549feb24c244389dd3e88897c33e7975" "20201008110158.409":
+  entity basicrom at 1( 0) + 0 on 25;
+  architecture rtl of basicrom at 11( 215) + 0 on 26;
+file . "videorom.v" "84e514294f0b8826d1500cb7bd2802b9a04999f7" "20201008110605.668":
+  entity videorom at 1( 0) + 0 on 27;
+  architecture rtl of videorom at 11( 204) + 0 on 28;
