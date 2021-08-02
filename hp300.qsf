@@ -59,9 +59,6 @@ set_global_assignment -name SEED 1
 source sys/sys.tcl
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEBA6U23I7
-set_global_assignment -name DEVICE_FILTER_PACKAGE UFBGA
-set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
-set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CONVST
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SCK
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SDI
